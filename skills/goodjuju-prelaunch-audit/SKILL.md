@@ -107,6 +107,34 @@ Finish with the verdict block at the bottom.
 - [ ] Goodjuju orange `#ff7c05` does not appear on client work
 - [ ] Every form submits somewhere real, or is clearly flagged as not yet wired
 
+## 9. Premium scorecard
+
+Run for any client website (skip for internal tools). You built it, so score it rather than
+eyeballing it.
+
+Three passes first. **Screenshot** at 1440 and 375 — any viewport accidental, empty or
+crowded? **Squint** at each section — one focal point, or equal-weight noise? **Cold
+visitor** — in 5 seconds, who is this, what do they do, where, what do I do next?
+
+Then score each 1–5 against its section in `goodjuju-premium-craft`. Anything under 4 gets
+fixed, not explained. Re-score, repeat, then print:
+
+```
+PREMIUM SCORECARD
+1 Direction ...... _/5   5 Space ...... _/5    9 Motion ....... _/5
+2 First 50ms ..... _/5   6 Color ...... _/5   10 Copy ......... _/5
+3 Cognitive load . _/5   7 Imagery .... _/5   11 Trust + CTA .. _/5
+4 Typography ..... _/5   8 Custom ..... _/5   12 Consistency .. _/5
+
+TOTAL: __/60      SIGNATURE MOVE: <what it is>
+CUSTOM SHIPPED:   <the 4+ touches from premium-craft §7>
+FIXED THIS PASS:  <what changed after the first score>
+STILL NEEDED:     <what the client still owes, or none>
+```
+
+Under 48/60 is not ready to show a client. Do not soften a score to reach a number, and do
+not score a dimension you did not check.
+
 ## Verdict
 
 ```
