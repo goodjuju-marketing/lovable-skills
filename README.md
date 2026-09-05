@@ -15,6 +15,7 @@ Cursor, which read the same Agent Skills format.
 |---|---|---|
 | [`workspace-knowledge.md`](workspace-knowledge.md) | Knowledge | Always-on rules — loads on every message |
 | [`skills/goodjuju-design-direction`](skills/goodjuju-design-direction) | Skill | Commit to an art direction before writing code |
+| [`skills/goodjuju-premium-craft`](skills/goodjuju-premium-craft) | Skill | Elevate a client-chosen template until it feels expensive, then score it |
 | [`skills/goodjuju-pm-website`](skills/goodjuju-pm-website) | Skill | Required sections for a property management site |
 | [`skills/goodjuju-prelaunch-audit`](skills/goodjuju-prelaunch-audit) | Skill | Final quality gate before client handoff |
 
@@ -32,6 +33,7 @@ Lovable → Settings → Workspace knowledge.
 
 ```
 https://github.com/goodjuju-marketing/lovable-skills/tree/main/skills/goodjuju-design-direction
+https://github.com/goodjuju-marketing/lovable-skills/tree/main/skills/goodjuju-premium-craft
 https://github.com/goodjuju-marketing/lovable-skills/tree/main/skills/goodjuju-pm-website
 https://github.com/goodjuju-marketing/lovable-skills/tree/main/skills/goodjuju-prelaunch-audit
 ```
@@ -66,16 +68,25 @@ being the truth. Edit here.
 - WCAG AA, sub-2s load, semantic HTML, real meta tags
 - No invented testimonials, stats, logos, or awards
 
-## Two tiers of checking
+## Three tiers of checking
 
 The workspace knowledge carries **THE CHECK** — a fast self-audit that runs on every
 build, unprompted. Build, audit against what actually rendered, fix what failed, then
 report. It exists so nobody has to point out that the type is timid or the icons are
 generic.
 
+`goodjuju-premium-craft` is the craft layer for full client websites. Clients pick a
+starting template during onboarding, and this skill is the ordered pathway for raising
+whichever one they chose — in its own style — until it reads as custom and expensive.
+It ends in a **12-dimension scored self-audit**: rate the build 1–5 on each dimension,
+fix anything under 4, re-score, and only then report. Under 48/60 is not ready to show
+a client.
+
 `goodjuju-prelaunch-audit` is the deeper gate before a client sees the work: SEO,
 security, RLS, the leftover-content sweep, and a launch verdict. Invoke it explicitly
 at handoff time.
+
+The order on a real build: direction → premium craft → PM sections → prelaunch audit.
 
 ## Credits
 
