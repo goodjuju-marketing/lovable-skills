@@ -58,11 +58,24 @@ being the truth. Edit here.
 
 - A named design direction, committed before any component is written
 - No default fonts — Inter, Roboto, Open Sans, Poppins, Montserrat, Lato are banned
+- Real scale contrast — hero display at least 3.5x body, three tiers visible at a squint
+- Icons that aren't library defaults at default size in default cards
 - Five colors maximum, as semantic tokens, never raw hex in a component
 - One signature move per project
 - Mobile designed, not shrunk
 - WCAG AA, sub-2s load, semantic HTML, real meta tags
 - No invented testimonials, stats, logos, or awards
+
+## Two tiers of checking
+
+The workspace knowledge carries **THE CHECK** — a fast self-audit that runs on every
+build, unprompted. Build, audit against what actually rendered, fix what failed, then
+report. It exists so nobody has to point out that the type is timid or the icons are
+generic.
+
+`goodjuju-prelaunch-audit` is the deeper gate before a client sees the work: SEO,
+security, RLS, the leftover-content sweep, and a launch verdict. Invoke it explicitly
+at handoff time.
 
 ## Credits
 
